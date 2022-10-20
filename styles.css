@@ -277,7 +277,7 @@ body .wrapper footer .socials .social-link:hover {
 @media (min-width: 1440px) {
   /* Body */
   body {
-    background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-desktop.png);
+    background-image: url(bg-pattern-1.svg), url(assets/bg-main-desktop.png);
     background-size: 19.5rem 29.25rem, 112.125rem;
     background-position: right top -2.5rem, left -14.875rem top -17.625rem;
   }
