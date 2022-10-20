@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Peteonthebeat/(https://your-solution-url.com)
+- Solution URL: [https://github.com/Peteonthebeat/Equalizer-Landing-Page.git]
 - Live Demo: [https://peteonthebeat.github.io/Equalizer-Landing-Page/]
 
 ## My process
