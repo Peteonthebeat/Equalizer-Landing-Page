@@ -1,0 +1,341 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Body */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  background-position: left 2rem top -9.875rem;
+  /* Main Container */
+  /* Header */
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body header {
+  display: flex;
+  margin: 2.5em auto 10.5em auto;
+  flex-direction: column;
+}
+body header .logo-div {
+  display: flex;
+  align-items: flex-start;
+}
+body header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.0625rem;
+  max-width: 20.4375rem;
+  margin: 4.25rem 0 1.5rem;
+}
+body header p {
+  font-weight: 400;
+  line-height: 2.125rem;
+  max-width: 20.4375rem;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  /* Orange Div */
+  /* Footer */
+}
+body .wrapper .dark-blue {
+  background-color: #191826;
+  background-image: url(../assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 17.5rem 26.25rem;
+  border-radius: 0.75rem;
+  max-width: 23.475rem;
+  height: 37.5rem;
+  width: 23.475rem;
+}
+body .wrapper .dark-blue .app {
+  position: relative;
+  width: 13.0606rem;
+  height: 26.875rem;
+  top: -6.125rem;
+  left: 5.0419rem;
+}
+body .wrapper .orange-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fa7453;
+  color: #fcfaf9;
+  border-radius: 0.75rem;
+  height: 34.125rem;
+  width: 23.475rem;
+  padding: 3rem 2.25rem 3rem;
+  margin: -13.75rem 0 0;
+  /* Buttons and Stuff */
+}
+body .wrapper .orange-div h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+body .wrapper .orange-div p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0.75rem 0 2.25rem 0;
+}
+body .wrapper .orange-div .span-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+body .wrapper .orange-div .span-div span {
+  font-size: 4.0625rem;
+  line-height: 3.25rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+body .wrapper .orange-div .span-div p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+body .wrapper .orange-div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.5rem;
+  max-width: 18.5rem;
+  height: 3.8125rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  line-height: 2rem;
+  border-radius: 0.75em;
+}
+body .wrapper .orange-div button img {
+  height: 1.2em;
+  margin: 0 0.5em;
+}
+body .wrapper .orange-div .button-black {
+  background-color: #191826;
+  padding: 1.2em 0;
+  color: #fcfaf9;
+}
+body .wrapper .orange-div .button-black:hover {
+  background-color: #66e2dc;
+  transition: 1s ease-out;
+}
+body .wrapper .orange-div .button-white {
+  background-color: #fcfaf9;
+  margin-top: 1rem;
+  padding: 1.2em 0;
+  color: #191826;
+}
+body .wrapper .orange-div .button-white:hover {
+  background-color: #ffb964;
+  transition: 1s ease-out;
+}
+body .wrapper footer {
+  align-items: flex-start;
+  max-width: 23.475rem;
+  margin: 3.5rem 1rem;
+  /* Social Icons */
+}
+body .wrapper footer .logo-div {
+  margin: 1.5em 0;
+}
+body .wrapper footer p {
+  margin: 2em 0 3em 0;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0.75rem 0 2.25rem 0;
+}
+body .wrapper footer .socials {
+  display: flex;
+  margin: 5em 0;
+}
+body .wrapper footer .socials .social-link {
+  margin: 0 1.5rem 0 0;
+}
+body .wrapper footer .socials .social-link:nth-of-type(1) {
+  background-image: url(/assets/icon-facebook.svg);
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  width: 20px;
+}
+body .wrapper footer .socials .social-link:nth-of-type(2) {
+  background-image: url(/assets/icon-instagram.svg);
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  width: 20px;
+}
+body .wrapper footer .socials .social-link:nth-of-type(3) {
+  background-image: url(/assets/icon-twitter.svg);
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  width: 20px;
+}
+body .wrapper footer .socials .social-link:hover {
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  filter: invert(62%) sepia(95%) saturate(2590%) hue-rotate(327deg) brightness(101%) contrast(96%);
+}
+
+/* Media Breakpoints */
+/* Tablet */
+@media (min-width: 768px) {
+  /* Body */
+  body {
+    background-image: url(../assets/bg-pattern-1.svg), url(../assets/bg-main-tablet.png);
+    background-size: 16.6669rem 25rem, 64.75rem;
+    background-position: right top -2rem, left -13.25rem top -7.625rem;
+    /* Main Container */
+  }
+  body .container {
+    margin-top: 7rem;
+    /* Footer */
+  }
+  body .container header {
+    margin: -5em 0 3em;
+  }
+  body .container header h1 {
+    font-size: 4rem;
+    letter-spacing: -0.0456rem;
+    line-height: 4rem;
+    margin: 5.9381rem 0 1.75rem;
+    max-width: 32.5rem;
+  }
+  body .container header p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    max-width: 32.125rem;
+  }
+  body .container .wrapper {
+    margin-top: 15rem;
+  }
+  body .container .wrapper .dark-blue {
+    background-position: right 187px top -31px;
+    max-width: 43.5rem;
+    width: 43.5rem;
+  }
+  body .container .wrapper .app {
+    width: 16.8881rem;
+    height: 34.75rem;
+    display: block;
+    position: relative;
+    top: -8.5rem;
+    left: 9%;
+  }
+  body .container .wrapper .orange-div {
+    z-index: 3;
+    position: relative;
+    width: 25rem;
+    top: -28.125rem;
+    left: 5.65rem;
+    padding: 3rem;
+    margin: 0 0 0 0;
+  }
+  body .container footer {
+    align-items: flex-start;
+    max-width: 43.5rem;
+    margin: -24.125rem 0 0 0;
+  }
+  body .container footer .footer-social-and-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 43.5rem;
+    gap: 14.375rem;
+    margin: 2.0006rem 0 5.3125rem;
+  }
+  body .container footer .footer-social-and-info p {
+    max-width: 22.875rem;
+  }
+}
+/* Media Breakpoints */
+/* Desktop and Laptop */
+@media (min-width: 1440px) {
+  /* Body */
+  body {
+    background-image: url(../assets/bg-pattern-1.svg), url(../assets/bg-main-desktop.png);
+    background-size: 19.5rem 29.25rem, 112.125rem;
+    background-position: right top -2.5rem, left -14.875rem top -17.625rem;
+  }
+  body .container header .h1 {
+    font-size: 5.5rem;
+    letter-spacing: -0.0456rem;
+    line-height: 5.5rem;
+    margin: 5.9381rem 0 1.75rem;
+    max-width: 55rem;
+  }
+  body .container header p {
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    max-width: 51.5625rem;
+  }
+  body .container .wrapper {
+    margin: 20rem 0 0 0;
+  }
+  body .container .wrapper .dark-blue {
+    background-size: 19.5rem 29.25rem;
+    width: 69.375rem;
+    max-width: 69.375rem;
+    background-position: right 28.875rem top -2.5rem;
+  }
+  body .container .wrapper .dark-blue .app {
+    width: 19.5rem;
+    height: 40.125rem;
+    top: -13.5rem;
+    left: 6.5rem;
+  }
+  body .container .wrapper .orange-div {
+    width: 27.875rem;
+    height: 39.0625rem;
+    top: -32rem;
+    left: 14rem;
+    padding: 3.6rem;
+  }
+  body .container .wrapper h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+  body .container .wrapper p {
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    margin: 2rem 0;
+  }
+  body .container footer {
+    display: flex;
+    flex-direction: row;
+    gap: 8.5rem;
+    width: 100%;
+    max-width: 69.375rem;
+    align-items: flex-start;
+    margin: -27rem 0 5em 0;
+  }
+  body .container footer .footer-social-and-info {
+    max-width: 69.375rem;
+    margin: 0;
+    gap: 22.4375rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
