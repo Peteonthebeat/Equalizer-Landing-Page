@@ -60,7 +60,7 @@ body .wrapper {
 }
 body .wrapper .dark-blue {
   background-color: #191826;
-  background-image: url(assets/bg-pattern-2.svg);
+  background-image: url(..assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 17.5rem 26.25rem;
@@ -175,21 +175,21 @@ body .wrapper footer .socials .social-link {
   margin: 0 1.5rem 0 0;
 }
 body .wrapper footer .socials .social-link:nth-of-type(1) {
-  background-image: url(./assets/icon-facebook.svg);
+  background-image: url(../assets/icon-facebook.svg);
   background-size: cover;
   background-position: center;
   height: 20px;
   width: 20px;
 }
 body .wrapper footer .socials .social-link:nth-of-type(2) {
-  background-image: url(./assets/icon-instagram.svg);
+  background-image: url(../assets/icon-instagram.svg);
   background-size: cover;
   background-position: center;
   height: 20px;
   width: 20px;
 }
 body .wrapper footer .socials .social-link:nth-of-type(3) {
-  background-image: url(./assets/icon-twitter.svg);
+  background-image: url(../assets/icon-twitter.svg);
   background-size: cover;
   background-position: center;
   height: 20px;
@@ -206,7 +206,7 @@ body .wrapper footer .socials .social-link:hover {
 @media (min-width: 768px) {
   /* Body */
   body {
-    background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-tablet.png);
+    background-image: url(../assets/bg-pattern-1.svg), url(./assets/bg-main-tablet.png);
     background-size: 16.6669rem 25rem, 64.75rem;
     background-position: right top -2rem, left -13.25rem top -7.625rem;
     /* Main Container */
@@ -277,7 +277,7 @@ body .wrapper footer .socials .social-link:hover {
 @media (min-width: 1440px) {
   /* Body */
   body {
-    background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-desktop.png);
+    background-image: url(../assets/bg-pattern-1.svg), url(../assets/bg-main-desktop.png);
     background-size: 19.5rem 29.25rem, 112.125rem;
     background-position: right top -2.5rem, left -14.875rem top -17.625rem;
   }
