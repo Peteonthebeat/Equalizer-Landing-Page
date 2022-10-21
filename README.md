@@ -48,6 +48,7 @@ Usually, I laydown the entire HTML first and then begin working on the CSS; I di
 ### What I learned
 
 I learned about nth selectors, and also practiced positioning background images.
+I also finally started using proper folders for assets and styles. 
 
 ```html
 </p>
